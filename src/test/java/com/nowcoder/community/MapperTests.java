@@ -15,6 +15,8 @@ import java.util.Date;
 import java.util.List;
 
 
+
+@RunWith(SpringRunner.class)
 @SpringBootTest
 @ContextConfiguration(classes = CommunityApplication.class)
 public class MapperTests {
